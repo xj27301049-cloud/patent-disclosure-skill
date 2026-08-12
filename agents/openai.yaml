@@ -1,0 +1,14 @@
+interface:
+  display_name: 专利申请工程与对抗审查
+  short_description: 面向样机前专利部署，完成布局、查新、权利要求和申请文件
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+  default_prompt: Use $patent-disclosure-skill to turn my completed design into a
+    defensible pre-prototype patent filing strategy and application package.
+policy:
+  allow_implicit_invocation: true
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
