@@ -186,7 +186,16 @@ pip install -r tools/patent_reader/requirements.txt
 ---
 
 ## 参考文档
+## Extending the Skill
 
+Developers can extend this project by:
+
+- Adding new patent workflow prompts
+- Creating additional analysis tools
+- Improving document processing pipelines
+- Contributing examples and test cases
+
+The project follows an Agent Skill architecture where workflows are defined through reusable instructions and supporting tools.
 - [技能入口与 Agent 流程](SKILL.md)（交底书主流程 + 阅读模式）
 - [详细安装说明](INSTALL.md)
 - [交底书：图示与转换 / 国知局工具](tools/README.md)
